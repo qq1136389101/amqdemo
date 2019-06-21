@@ -1,5 +1,6 @@
 
 application:
+  # 自定义的消息通道
   queueName1: queue1
   queueName2: queue2
   topicName1: topic1
@@ -7,6 +8,4 @@ application:
 
 spring:
   activemq:
-    broker-url: tcp://localhost:61616
-  profiles:
-    active: dev
+    broker-url: tcp://localhost:61616   # AMQ 连接地址

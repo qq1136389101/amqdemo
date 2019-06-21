@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import javax.jms.Queue;
 
 /**
+ * queue生产者
  * @Author chun
  * @Date 2019/6/21 0:07
  */

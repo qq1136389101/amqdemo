@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import javax.jms.Topic;
 
 /**
+ * topic生产者
  * @Author chun
  * @Date 2019/6/21 0:10
  */

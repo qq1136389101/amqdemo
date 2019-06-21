@@ -54,7 +54,7 @@ public class AmqConfig {
     }
 
     /**
-     * topic模式的ListenerContainer
+     * topic模式的ListenerContainer, 供消费者使用
      * @return
      */
     @Bean
@@ -67,7 +67,7 @@ public class AmqConfig {
     }
 
     /**
-     * queue模式的ListenerContainer
+     * queue模式的ListenerContainer, 供消费者使用
      * @return
      */
     @Bean
