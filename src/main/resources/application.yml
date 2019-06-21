@@ -1,0 +1,12 @@
+
+application:
+  queueName1: queue1
+  queueName2: queue2
+  topicName1: topic1
+  topicName2: topic2
+
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+  profiles:
+    active: dev
